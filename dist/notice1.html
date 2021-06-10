@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-compatible" content="IE=edge, chrome=1">
+
+    <!-- css customize -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/common.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/contents.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/sub.css">
+
+    <!-- javascript -->
+    <script type="text/javascript" src="../assets/js/lib/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="../assets/js/lib/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../assets/js/common.js" defer></script>
+
+    <link rel="shortcut icon" type="image/icon" href="../assets/img/common/favicon.ico">
+
+    <title>한화솔루션</title>
+</head>
+<body>
+
+    <header>
+        <h1>
+            <a href="index.html">
+            </a>
+        </h1>
+
+        <!-- menu -->
+        <nav class="gnb grid-box">
+            <ul>
+                <li>
+                    <a href="company.html">회사소개</a>
+                </li>
+                <li>
+                    <a href="corporate1.html">투자정보</a>
+                    <!-- 2depth -->
+                    <div class="inner">
+                        <ul class="box">
+                            <li>
+                                <a href="corporate1.html">
+                                    <span>기업지배구조 사항</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="corporate2.html">
+                                    <span>이사회내 위원회</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="corporate3.html">
+                                    <span>정관 및 기타규정</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="stock.html">
+                                    <span>주식정보</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- //2depth -->
+                </li>
+                <li>
+                    <a href="notice1.html">공시&홍보센터</a>
+                </li>
+                <li>
+                    <a href="sustainability.html">지속가능경영</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="menuBtn mo_only">
+            <a href="javascript:;"></a>
+        </div>
+
+        <!-- //menu -->
+        <div class="language">
+            <ul class="language_box">
+                <li><a href="javascript:;">KOR</a></li>
+                <li><a href="javascript:;">ENG</a></li>
+                <li><a href="javascript:;">CHN</a></li>
+            </ul>
+        </div>
+        
+        <div class="moMenu">
+            <div class="inner">
+                <div class="top">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="../assets/img/common/logo.png" alt="">
+                        </a>
+                    </div>
+
+                    <div class="closeBtn">
+                        <a href="javascript:;"></a>
+                    </div>
+                </div>
+
+                <ul class="bottom">
+                    <li>
+                        <a href="company.html">회사소개</a>
+                    </li>
+                    <li class="depth2">
+                        <a href="javascript:;">투자정보</a>
+
+                        <!-- 2depth -->
+                        <div class="depth2_inner">
+                            <ul class="box">
+                                <li>
+                                    <a href="corporate1.html">
+                                        <span>기업지배구조 사항</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="corporate2.html">
+                                        <span>이사회내 위원회</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="corporate3.html">
+                                        <span>정관 및 기타규정</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="stock.html">
+                                        <span>주식정보</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- //2depth -->
+                    </li>
+                    <li>
+                        <a href="notice1.html">공시&홍보센터</a>
+                    </li>
+                    <li>
+                        <a href="sustainability.html">지속가능경영</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!--  subVisual  -->
+        <section class="subVisual">
+            <div class="img">
+                <img src="../assets/img/content/vis_newsnotice.jpeg" alt="">
+            </div>
+            <div class="txt_box">
+                <p>공지&홍보센터</p>
+                <span>Notice&PR Center</span>
+            </div>
+        </section>
+        <!--  //subVisual  -->
+
+        <!-- container -->
+        <div class="conWrap">
+            <div class="sub_inner w1200">
+                <ul class="tab col2">
+                    <li class="on">
+                        <a href="notice1.html">뉴스</a>
+                    </li>
+                    <li>
+                        <a href="notice2.html">공지사항</a>
+                    </li>
+                </ul>
+
+                <div class="tbList notice">
+                    <table>
+                        <colgroup>
+                            <col width="12.5%">
+                            <col width="72.5%">
+                            <col width="15%">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>번호</th>
+                                <th>제목</th>
+                                <th>등록일</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>36</td>
+                                <td class="tit">
+                                    <a href="">개인정보이전공고(한화솔루션)보이전공고(한화솔루션보이전공고(한화솔루션보이전공고(한화솔루션보이전공고(한화솔루션</a>
+                                </td>
+                                <td>2021.04.21</td>
+                            </tr>
+                            <tr>
+                                <td>35</td>
+                                <td class="tit">
+                                    <a href="">개인정보이전공고(한화솔루션)</a>
+                                </td>
+                                <td>2021.04.21</td>
+                            </tr>
+                            <tr>
+                                <td>34</td>
+                                <td class="tit">
+                                    <a href="">한화솔루션 도시개발 합병종료보고 공고</a>
+                                </td>
+                                <td>2021.04.21</td>
+                            </tr>
+                            <tr>
+                                <td>33</td>
+                                <td class="tit">
+                                    <a href="">한화솔루션 갤러리아 합병종료보고 공고</a>
+                                </td>
+                                <td>2021.04.21</td>
+                            </tr>
+                            <tr>
+                                <td>32</td>
+                                <td class="tit">
+                                    <a href="">개인정보이전공고(한화솔루션)</a>
+                                </td>
+                                <td>2021.04.21</td>
+                            </tr>
+                            <tr>
+                                <td>31</td>
+                                <td class="tit">
+                                    <a href="">제 47기 결산공고(연결)</a>
+                                </td>
+                                <td>2021.04.21</td>
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td class="tit">
+                                    <a href="">2020년 사업보고서</a>
+                                </td>
+                                <td>2021.04.21</td>
+                            </tr>
+                            <tr>
+                                <td>29</td>
+                                <td class="tit">
+                                    <a href="">일반공모 청약 공고</a>
+                                </td>
+                                <td>2021.04.21</td>
+                            </tr>
+                            <tr>
+                                <td>28</td>
+                                <td class="tit">
+                                    <a href="">개인정보이전공고(한화솔루션)</a>
+                                </td>
+                                <td>2021.04.21</td>
+                            </tr>
+                            <tr>
+                                <td>27</td>
+                                <td class="tit">
+                                    <a href="">제47기 정기주주총회 위임장</a>
+                                </td>
+                                <td>2021.04.21</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+        <!-- //container -->
+    </div>
+
+    <footer class="w1200 clearfix">
+        <div class="copyright">
+            <p>COPYRIGHT © 2020 한화솔루션 공식 홈페이지</p>
+        </div>
+        <div class="familysite OpenSans hover">
+            <p>FAMILY SITE</p>
+            <ul class="siteList">
+                <li>
+                    <a href="#">한화그룹</a>
+                </li>
+                <li>
+                    <a href="#">(주)한화</a>
+                </li>
+                <li>
+                    <a href="#">한화에어로스페이스</a>
+                </li>
+                <li>
+                    <a href="#">한화디펜스</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>

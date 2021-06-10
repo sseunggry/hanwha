@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!--#include file="/include/_head.html"-->
+</head>
+<body>
+    
+    <!--#include file="/include/_header.html"-->
+
+    <div class="container">
+
+        <!--  subVisual  -->
+        <section class="subVisual">
+            <div class="img">
+                <img src="../assets/img/content/vis_ir_stock.jpeg" alt="">
+            </div>
+            <div class="txt_box">
+                <p>주식정보</p>
+                <span>Stock Information</span>
+            </div>
+        </section>
+        <!--  //subVisual  -->
+
+        <!-- container -->
+        <div class="conWrap">
+            <div class="stock sub_inner w1200">
+
+                <div class="tb_box">
+                    <h3>주식/주주 현황</h3>
+                    <div class="tbData">
+                        <div class="txt clearfix">
+                            <h4>주식 발행 내역<span>(1주의 액면금액 : 5,000원)</span></h4>
+                            <span class="infoTxt">단위 : 주, 백만원, 2020년 12월 31일 기준</span>
+                        </div>
+                        <div class="tableScroll wbar">
+                            <div class="tbList tb2">
+                                <table>
+                                    <colgroup>
+                                        <col width="20%">
+                                        <col width="30%">
+                                        <col width="30%">
+                                        <col width="20%">
+                                    </colgroup>
+
+                                    <thead>
+                                        <tr>
+                                            <th>주식의 종류</th>
+                                            <th>발행주식 총수</th>
+                                            <th>액면총액</th>
+                                            <th>비고</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td>보통주</td>
+                                            <td class="num">159,864,497</td>
+                                            <td class="num">815,552</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>우선주</td>
+                                            <td class="num">1,123,737</td>
+                                            <td class="num">5,619</td>
+                                            <td></td>
+                                        </tr>
+                                        <tr class="sum">
+                                            <td>합계</td>
+                                            <td class="num">160,988,234</td>
+                                            <td class="num">821,171</td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tbData">
+                        <div class="txt clearfix">
+                            <h4>주총 의결권행사 현황</h4>
+                            <span class="infoTxt">제47기 정기주주총회 (2020년 3월 24일)</span>
+                        </div>
+                        <div class="tableScroll wbar wfix">
+                            <div class="tbList tb2">
+                                <table>
+                                    <colgroup>
+                                        <col width="195px">
+                                        <col width="195px">
+                                        <col width="195px">
+                                        <col width="195px">
+                                        <col width="195px">
+                                        <col width="225px">
+                                    </colgroup>
+
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                총발행주식수<br>
+                                                (보통주, 우선주)
+                                            </th>
+                                            <th>의결권 주식수</th>
+                                            <th>출석주식수</th>
+                                            <th>
+                                                대주주(1%이상)<br>
+                                                주식수
+                                            </th>
+                                            <th>
+                                                소액주주(1%미만)<br>
+                                                주식수
+                                            </th>
+                                            <th>
+                                                소액주주 의결권 행사<br>
+                                                비율
+                                            </th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td class="num">160,988,234</td>
+                                            <td class="num">159,464,937</td>
+                                            <td class="num">104,163,349</td>
+                                            <td class="num">76,032,818</td>
+                                            <td class="num">28,130,531</td>
+                                            <td class="num">33.72%</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tbData">
+                        <div class="txt clearfix">
+                            <h4>주주 구성</h4>
+                            <span class="infoTxt">[보통주]</span>
+                        </div>
+                        <div id="donutchart"></div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <!-- //container -->
+    </div>
+
+    <!--#include file="/include/_footer.html"-->
+
+</body>
+
+</html>

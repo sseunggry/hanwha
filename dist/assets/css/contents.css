@@ -248,9 +248,9 @@ footer .familysite.hover p::after { -webkit-transform: rotate(180deg); -ms-trans
 	.detail_list li .txt_box span { width: 90%; }
 	.detail_list li .txt_box span img, .detail_list2 li .txt_box span img { height: 3.06vw; margin-top: 1.22vw; }
 	/* header */
-	header { height: 12.24vw; }
+	header { height: 14.24vw; }
 	header h1 { left: 6.12vw; }
-	header h1 a { width: 25.51vw; height: 6.76vw; }
+	header h1 a { width: 28.37vw; height: 7.80vw; }
 	header.hover { border-bottom-width: 0.20vw; }
 	nav, .language { display: none; }
 	header.scroll { border-bottom-width: 0.20vw; }
@@ -258,14 +258,14 @@ footer .familysite.hover p::after { -webkit-transform: rotate(180deg); -ms-trans
 	.menuBtn { right: 6.12vw; width: 4.90vw; height: 4.90vw; }
 	.moMenu { display: none; position: fixed; top: 0; overflow: hidden auto; width: 100%; height: 100%; z-index: 100; background: rgba(0, 0, 0, 0.6); opacity: 0; }
 	.moMenu > .inner { position: relative; top: 0; left: -100%; min-height: 100%; background: #fff; -webkit-transition: left 0.3s; transition: left 0.3s; }
-	.moMenu .top { position: relative; height: 12.24vw; border-bottom: 0.20vw solid #eee; -webkit-box-sizing: border-box; box-sizing: border-box; }
+	.moMenu .top { position: relative; height: 14.24vw; border-bottom: 0.20vw solid #eee; -webkit-box-sizing: border-box; box-sizing: border-box; }
 	.moMenu .top .logo { position: absolute; top: 50%; left: 6.12vw; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
-	.moMenu .top .logo img { width: 24.49vw; height: 6.76vw; }
+	.moMenu .top .logo img { width: 28.37vw; height: 7.80vw; }
 	.moMenu .top .closeBtn { position: absolute; top: 50%; right: 6.12vw; width: 4.90vw; height: 4.90vw; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); background: url("../img/common/ico_close.png") no-repeat center/cover; }
 	.moMenu .top .closeBtn a { display: block; width: 100%; height: 100%; }
 	.moMenu .bottom { margin-top: 4.08vw; padding: 0 7.14vw; }
-	.moMenu .bottom > li { padding: 4.08vw 0; }
-	.moMenu .bottom > li > a { display: block; font-size: 4.29vw; font-weight: 700; }
+	.moMenu .bottom > li + li { margin-top: 2.04vw; }
+	.moMenu .bottom > li > a { display: block; padding: 4.08vw 0; font-size: 4.90vw; font-weight: 700; }
 	.moMenu .bottom > li.depth2 > a { position: relative; }
 	.moMenu .bottom > li.depth2 > a::after { content: ''; position: absolute; top: 50%; right: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); display: inline-block; width: 4.08vw; height: 4.08vw; background: url("../img/common/ico_puls.png") no-repeat center/cover; }
 	.moMenu .bottom > li.depth2 > a.on::after { background-image: url("../img/common/ico_minus.png"); }

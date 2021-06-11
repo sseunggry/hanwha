@@ -71,7 +71,9 @@ sub common
 
 .tbList.tb2 tr th { font-weight: 500; background: #f8f8f8; }
 
-.tbList.tb2 tr th + th, .tbList.tb2 tr td { border-left: 1px solid #eee; }
+.tbList.tb2 tr th + th, .tbList.tb2 tr td + td { border-left: 1px solid #eee; }
+
+.tbList.tb2 tr td.border { border-right: 1px solid #eee; }
 
 .tbList.tb2 tr td.num { padding: 0 40px; text-align: right; }
 
@@ -144,7 +146,7 @@ contents
 
 .subVisual .img { position: relative; overflow: hidden; height: 450px; }
 
-.subVisual .img img { position: absolute; top: 0; left: 50%; min-width: 1520px; height: 100%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
+.subVisual .img img { position: absolute; top: 0; left: 50%; min-width: 1920px; height: 100%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
 
 .subVisual .txt_box { position: absolute; top: calc(50% + 20px); left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); text-align: center; }
 
@@ -369,7 +371,8 @@ mediaQuery
 	.tbList.notice tbody tr td.tit { max-height: 12.24vw; margin-bottom: 4.08vw; padding: 0; font-size: 4.29vw; line-height: 1.5; white-space: normal; }
 	.tbList.notice tbody.tb1 tr td.ico_file { float: right; }
 	.tbList.notice tbody.tb1 tr td.ico_file a { margin-top: -0.31vw; width: 4.08vw; height: 4.69vw; }
-	.tbList.tb2 tr th + th, .tbList.tb2 tr td { border-left-width: 0.20vw; }
+	.tbList.tb2 tr th + th, .tbList.tb2 tr td + td { border-left-width: 0.20vw; }
+	.tbList.tb2 tr td.border { border-right-width: 0.20vw; }
 	.tbList.tb2 tr td.num { padding: 0 4.08vw; }
 	.tableScroll { overflow-x: scroll; }
 	.tableScroll .tbList { margin-top: 5.10vw; width: 100%; min-width: 172.45vw; }
@@ -396,8 +399,8 @@ mediaQuery
 	.wbar::-webkit-scrollbar { height: 1.63vw; }
 	/*  contents */
 	/* subVisual */
-	.subVisual .img { height: 51.02vw; }
-	.subVisual .img img { min-width: 155.10vw; }
+	.subVisual .img { height: 61.02vw; }
+	.subVisual .img img { min-width: 195.92vw; }
 	.subVisual .txt_box { top: calc(50% + 2.04vw); }
 	.subVisual .txt_box p { margin-bottom: 2.04vw; font-size: 6.53vw; }
 	.subVisual .txt_box span { font-size: 3.27vw; letter-spacing: 0.51vw; }

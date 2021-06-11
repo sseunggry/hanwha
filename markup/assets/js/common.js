@@ -66,7 +66,7 @@ $('.language_box li').mouseover(function(){
 // moblie 메뉴
 $('.menuBtn').click(function(){
     $('.moMenu').css('display','block').animate({opacity : '1'}, 300, function(){
-        $("body").css("overflow","hidden");
+        $('body').css('overflow','hidden');
         $('.moMenu > .inner').css({'left' : '0'});
     });
 });
@@ -74,8 +74,8 @@ $('.menuBtn').click(function(){
 $('.closeBtn').click(function(){
     $('.moMenu > .inner').animate({left : '-100%'}, 100, function(){
         $('.moMenu').animate({opacity : '0'}, 200, function(){
-            $('.moMenu').css('display', '');
-            $("body").css("overflow","");
+            $('.moMenu').css('display', 'none');
+            $('body').css('overflow','');
         });
     });
 });

@@ -116,7 +116,7 @@ nav > ul > li .inner .box li { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; }
 .language .language_box.hover li a { font-size: 14px; color: #222; }
 
 /* visual */
-.visual { position: relative; overflow: hidden; width: 100vw; height: 100vh; min-height: 590px; }
+.visual { position: relative; overflow: hidden; width: 100vw; height: 100vh; min-height: 590px; max-height: 1080px; }
 
 .visual .video_container video { position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; min-height: 50%; min-width: 50%; }
 
@@ -273,7 +273,7 @@ footer .familysite.hover p::after { -webkit-transform: rotate(180deg); -ms-trans
 	.moMenu .bottom li.depth2 .depth2_inner { display: none; margin: 2.04vw 0 0; padding: 0 2.04vw; -webkit-transition: 0.2s; transition: 0.2s; }
 	.moMenu .bottom li.depth2 .depth2_inner .box li a { display: block; padding: 3.06vw 0; font-size: 3.67vw; font-weight: 300; }
 	/* visual */
-	.visual { min-height: 60.20vw; }
+	.visual { min-height: 60.20vw; max-height: 110.20vw; }
 	.visual .video_container .txt_box { width: 80%; -webkit-transform: translateY(-80%); -ms-transform: translateY(-80%); transform: translateY(-80%); }
 	.visual .video_container .txt_box p { font-size: 6.53vw; }
 	.visual .video_container img { height: 130.61vw; }

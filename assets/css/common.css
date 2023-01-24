@@ -1,0 +1,84 @@
+/* ============================================================================================ */
+/* [Web Font]
+/* ============================================================================================ */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+@font-face { font-family: "Noto Sans KR"; src: url("../fonts/NotoSansKR-Thin.woff2") format("woff2"), url("../fonts/NotoSansKR-Thin.woff") format("woff"); font-weight: 100; font-style: normal; }
+
+@font-face { font-family: "Noto Sans KR"; src: url("../fonts/NotoSansKR-Light.woff2") format("woff2"), url("../fonts/NotoSansKR-Light.woff") format("woff"); font-weight: 200; font-style: normal; }
+
+@font-face { font-family: "Noto Sans KR"; src: url("../fonts/NotoSansKR-DemiLight.woff2") format("woff2"), url("../fonts/NotoSansKR-DemiLight.woff") format("woff"); font-weight: 300; font-style: normal; }
+
+@font-face { font-family: "Noto Sans KR"; src: url("../fonts/NotoSansKR-Regular.woff2") format("woff2"), url("../fonts/NotoSansKR-Regular.woff") format("woff"); font-weight: 400; font-style: normal; }
+
+@font-face { font-family: "Noto Sans KR"; src: url("../fonts/NotoSansKR-Medium.woff2") format("woff2"), url("../fonts/NotoSansKR-Medium.woff") format("woff"); font-weight: 500; font-style: normal; }
+
+@font-face { font-family: "Noto Sans KR"; src: url("../fonts/NotoSansKR-Bold.woff2") format("woff2"), url("../fonts/NotoSansKR-Bold.woff") format("woff"); font-weight: 700; font-style: normal; }
+
+@font-face { font-family: "Noto Sans KR"; src: url("../fonts/NotoSansKR-Black.woff2") format("woff2"), url("../fonts/NotoSansKR-Black.woff") format("woff"); font-weight: 900; font-style: normal; }
+
+/* ============================================================================================ */
+/* [common]
+/* ============================================================================================ */
+/* clearfix */
+.clearfix { *zoom: 1; }
+
+.clearfix::before, .clearfix::after { content: ''; display: block; clear: both; }
+
+/* display */
+.pc_only { display: block !important; }
+
+.mo_only { display: none !important; }
+
+/* fontStyle */
+.OpenSans { font-family: 'Open Sans','Noto Sans KR', sans-serif; }
+
+.ta-left { text-align: left !important; }
+
+.ta-center { text-align: center !important; }
+
+.ta-right { text-align: right !important; }
+
+.orange { color: #ff6600 !important; }
+
+/* ============================================================================================ */
+/* [layout]
+/* ============================================================================================ */
+/* imt_txt */
+/* .imgTxt {display: inline-block; text-indent: -9999px; background-position: 0 0; background-size: contain; background-repeat: no-repeat; vertical-align: middle; } */
+.imgTxt { display: inline-block; text-indent: -9999px; background-position: center; background-repeat: no-repeat; background-size: contain; vertical-align: middle; }
+
+.Large { height: 39px; }
+
+.mid { height: 16px; margin-top: 8px; }
+
+.small { height: 14px; margin-top: 5px; }
+
+.t_hanwO { background-image: url("../img/content/Hanwhasolution_Bold_orange.svg"); margin-top: -8px; width: 188px; height: 37px; }
+
+.t_cheB { background-image: url("../img/content/text_con_chemical_2.svg"); }
+
+/* .t_cheB.subtit {width:50px; height:16px;} */
+.t_cheW { background-image: url("../img/content/Chemical_white.svg"); width: 80px; }
+
+.t_qcellB { background-image: url("../img/content/QCELLS_white.svg"); fill: #222; }
+
+.t_qcellW { background-image: url("../img/content/QCELLS_white.svg"); width: 51px; }
+
+.t_materB { background-image: url("../img/content/Advanced_Materials_white.svg"); fill: #222; }
+
+.t_materW { background-image: url("../img/content/Advanced_Materials_white.svg"); width: 106px; }
+
+.t_galB { background-image: url("../img/content/galleria.svg"); fill: #222; }
+
+.t_galW { background-image: url("../img/content/galleria.svg"); width: 111px; }
+
+.t_devB { background-image: url("../img/content/hcd.svg"); fill: #222; }
+
+.t_devW { background-image: url("../img/content/hcd.svg"); width: 113px; }
+
+@media all and (max-width: 980px) { /* display */
+	.pc_only { display: none !important; }
+	.mo_only { display: block !important; }
+	.t_hanwO { margin-top: -0.82vw; width: 32.37vw; height: 7.39vw; } }
+
+/*# sourceMappingURL=maps/common.css.map */
